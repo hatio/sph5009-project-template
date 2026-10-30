@@ -54,7 +54,7 @@ rsconnect/
 # --- Project-specific: data and sensitivity ---
 
 # Real or symlinked data folder: never tracked.
-data/
+/data/
 
 # Any CSV, anywhere, is assumed to be data unless explicitly allowed.
 *.csv
