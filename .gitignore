@@ -38,7 +38,6 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
-.env
 
 # pkgdown site
 docs/
@@ -48,3 +47,24 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Mac
+.DS_Store
+
+# --- Project-specific: data and sensitivity ---
+
+# Real or symlinked data folder: never tracked.
+data/
+
+# Any CSV, anywhere, is assumed to be data unless explicitly allowed.
+*.csv
+
+# Exception: the manifest tracking expected data hashes IS tracked,
+# since it contains no actual data, only filenames and checksums.
+!data_manifest.csv
+
+# Computed outputs: reproducible from code + data, so not tracked.
+output/
+*.png
+*.pdf
+!LICENSE
