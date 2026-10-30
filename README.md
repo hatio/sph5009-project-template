@@ -1,4 +1,4 @@
-# project-template
+# sph5009-project-template
 
 A ready-to-use project scaffold for public health data analysis in R. This
 repository is a **GitHub template**: use the green "Use this template"
@@ -144,7 +144,7 @@ your real data; it only removes the pointer.
 ## 4. Project Structure
 
 ```
-project-template/
+sph5009-project-template/
 ├── project-template.Rproj
 ├── README.md                     <- you are here
 ├── .gitignore
